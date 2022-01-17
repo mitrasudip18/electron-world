@@ -1,0 +1,159 @@
+
+body{
+    background: darkcyan;
+}
+/* 
+
+Form        Form        Form        Form        Form        
+
+*/
+
+.btn{
+    width: 100px;
+    height: 30px;
+    background-color: #00ad5f;
+    color: #e6e6e6;
+    font-size: 14px;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+label{
+    padding: 15px 12px 2px 0;
+    display: inline-block;
+    font-size: 20px;
+    font-style:italic;
+}
+.frm{
+    margin-top: 120px;
+    padding-left: 100px;
+    background:linear-gradient(to right,#ECD53F, #11E1D8  );
+    margin-left: 500px;
+    margin-right: 450px;
+}
+.in{
+    width: 70%;
+    padding: 12px 10px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 4px solid #E1114D ;
+    background-color:lavender;
+}
+#butn:hover{
+    background-color: blue;
+}
+
+/* 
+
+Navbar      Navbar      Navbar      Navbar      Navbar
+
+*/
+.aq{
+    font-size: 20px;
+    padding-left: 20px;
+    margin-top: 0px;
+    padding: 10px;
+    background-color: black;
+    width: 100%;
+       
+}
+a:link {
+    text-decoration: none;
+  }
+.nav-link{
+    color: white;
+    
+}
+/* 
+
+Footer      Footer      Footer      Footer      Footer
+
+*/
+
+.foot{
+    text-align: center;
+    margin: auto;
+    margin-top: 50px;
+    /* position: fixed; */
+    width: 100%;
+    margin-top: 200px;
+    margin-bottom: 50px;
+
+}
+.anc{
+    text-decoration: none;
+    color: aliceblue;
+    /* padding-top: 100px; */
+}
+/* 
+
+Table       Table       Table       Table       Table
+
+*/
+
+
+.tabl{
+    margin: auto;
+    
+}
+
+.headtable{
+    margin-top: 20px;
+    text-align: center;
+    color: black
+}
+
+.tablrow{
+    margin-left: 20px;
+}
+table{
+    width: 50%;
+    border:ridge 4px white;
+}
+table th{
+    padding: 5px 5px 5px 5px;
+    text-align: center;
+    border:solid 4px white;
+    background-color: #EC763F;
+}
+table td{
+    padding: 5px 5px 5px 5px;
+    border:solid 4px white;
+    text-align: center;
+    background-color: burlywood;
+}
+
+
+/* 
+
+Card        Card        Card        Card        Card        Card
+
+*/
+.crd{
+    background-color: blanchedalmond;
+    color: black;
+    margin:auto;
+    
+}
+.cards1{
+    margin-top: 20px;
+    background-color: rgb(3, 37, 37);;
+}
+.hd{
+    background-color:rgb(11, 86, 136);;
+    color: black !important;
+}
+.dtls{
+    background-color: rgb(3, 37, 37);
+    color: aliceblue;
+}
+/* 
+
+Search      Search      Search      Search
+
+*/
+.srch{
+    margin-bottom: 15px;
+    margin-left: 150px;
+}

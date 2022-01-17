@@ -1,0 +1,54 @@
+<%- include('../Includes/Header.ejs') %>
+    <title>
+        <%= title %>
+    </title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+
+    <body>
+        <%- include('../Includes/Navigation.ejs') %>
+        <br>
+        <form class="srch"action="/srch" method="post">
+            <input type="text" name="search">
+            <button type="submit" value="submit">Search</button>
+          </form>
+        <div>
+        <table border="3" class="tabl">
+            <h1 class="headtable">Product details</h1>
+            <tr class="tablrow">
+                <th colspan="2">First name</th>
+                <th colspan="2">Last name</th>
+                <th>City</th>
+                <th>Pin</th>
+                <th>Phone</th>
+                <th>Email</th>
+                <th>Password</th>
+            </tr>
+            <%if(data.length>0){%>
+                <%for(let val of data){%>
+            <tr>
+                
+                <td colspan="2"><%=val.Fname %></td>
+                <td colspan="2"><%=val.Lname %></td>
+                <td><%=val.City %></td>
+                <td><%=val.Pin %></td>
+                <td><%=val.Phone %></td>
+                <td><%=val.Email %></td>
+                <td><%=val.Pass %></td>
+                    
+            </tr>
+            <%}%>
+         <%}else{%>
+            <h1>data not found</h1>
+        <%}%> 
+
+        </table>
+    </div>
+
+    <%- include('../Includes/Footer.ejs') %>
+
+
+
+
+       
+  
